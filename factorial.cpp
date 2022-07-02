@@ -27,9 +27,6 @@ int main(){
         cout << "Enter your choice  \n1 for Iterative \n2 for recursive : ";
         cin >> choice;
 
-        auto start1 = high_resolution_clock::now();
-        auto stop1 = high_resolution_clock::now();
-        auto duration = duration_cast<microseconds>(stop1 - start1);
         if(choice == 1 || choice == 2){
             ll number;
             cout << "Enter number : ";
